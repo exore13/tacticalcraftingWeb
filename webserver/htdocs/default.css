@@ -1,0 +1,37 @@
+body {
+	background-image: url('https://i.imgur.com/ZrKtneC.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+a:link {
+	color:rgb(190, 190, 190);
+}
+a:visited {
+	color:rgb(190, 190, 190);
+}
+
+a:hover {
+	text-decoration:underline;
+	color:rgb(255, 255, 255);
+}
+
+a:active {
+	text-decoration:underline;
+	color:rgb(255, 255, 255);
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 20px;
+	line-height: 20px; /* Vertically center the text there */
+	background-color: #000000;
+	color: rgb(190, 190, 190);
+	text-align: center;
+	font-size: 14px;
+}
