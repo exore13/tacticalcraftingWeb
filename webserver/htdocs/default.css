@@ -35,3 +35,9 @@ a:active {
 	text-align: center;
 	font-size: 14px;
 }
+
+#titleDiv img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+  }
