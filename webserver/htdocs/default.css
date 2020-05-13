@@ -2,7 +2,7 @@ body {
 	background-image: url('https://i.imgur.com/ZrKtneC.png');
     background-repeat: no-repeat;
     background-attachment: fixed;  
-    background-size: cover;
+	background-size: cover;
 }
 
 a:link {
@@ -40,4 +40,36 @@ a:active {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+  }
+
+
+
+  .navtab {
+	  
+	border-radius: 10px;
+	list-style-type: none;
+	margin: 0;
+	background-color: rgba(50, 50, 50, 0.5);
+  }
+  
+  .navtab a {
+	font-size: 20px;
+	text-align: center;
+	display: block;
+	padding: 0px 16px;
+	text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  .navtab a:hover {
+	font-size: 20px;
+	border-radius: 10px;
+	background-color: rgb(0, 142, 224);
+	color: white;
+  }
+
+  .active {
+	background-color: #555;
+	border-radius: 10px;
+	color: white;
   }
